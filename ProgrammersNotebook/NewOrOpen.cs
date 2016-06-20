@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuiverPortUnoff
+namespace ProgrammersNotebook
 {
     public partial class NewOrOpenForm : Form
     {
@@ -36,6 +36,11 @@ namespace QuiverPortUnoff
         }
 
         private void NewLibBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewOrOpenForm_Load(object sender, EventArgs e)
         {
 
         }

@@ -32,12 +32,7 @@ namespace QuiverPortUnoff
             InitializeComponent();
             library.Width = WidthDivideBy(4);
             noteList.Width = WidthDivideBy(4);
-            //noteList.Height = HeightDivideBy(1);
             note.Width = WidthDivideBy(2);
-            //note.Height = HeightDivideBy(1);
-            //this.Controls.SetChildIndex(library, 0);
-            //this.Controls.SetChildIndex(noteList, 1);
-            //this.Controls.SetChildIndex(note, 2);
 
             NewOrOpenForm startDia = new NewOrOpenForm();
             startDia.ShowDialog(this);

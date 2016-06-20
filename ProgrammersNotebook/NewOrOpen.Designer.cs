@@ -1,4 +1,4 @@
-﻿namespace QuiverPortUnoff
+﻿namespace ProgrammersNotebook
 {
     partial class NewOrOpenForm
     {
@@ -31,7 +31,7 @@
             this.openLibBtn = new System.Windows.Forms.Button();
             this.NewLibBtn = new System.Windows.Forms.Button();
             this.openLibPrompt = new System.Windows.Forms.FolderBrowserDialog();
-            this.newLibPrompt = new System.Windows.Forms.FolderBrowserDialog();
+            this.newLibPrompt = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // openLibBtn
@@ -58,6 +58,10 @@
             // 
             this.openLibPrompt.ShowNewFolderButton = false;
             // 
+            // newLibPrompt
+            // 
+            this.newLibPrompt.Filter = "Quiver Library|*.qvlibrary";
+            // 
             // NewOrOpenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -82,6 +86,6 @@
         private System.Windows.Forms.Button openLibBtn;
         private System.Windows.Forms.Button NewLibBtn;
         private System.Windows.Forms.FolderBrowserDialog openLibPrompt;
-        private System.Windows.Forms.FolderBrowserDialog newLibPrompt;
+        private System.Windows.Forms.SaveFileDialog newLibPrompt;
     }
 }

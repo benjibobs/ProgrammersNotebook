@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuiverPortUnoff", "QuiverPortUnoff\QuiverPortUnoff.csproj", "{837E3160-7E39-4FE3-B14D-8047C1121FE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersNotebook", "ProgrammersNotebook\ProgrammersNotebook.csproj", "{837E3160-7E39-4FE3-B14D-8047C1121FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

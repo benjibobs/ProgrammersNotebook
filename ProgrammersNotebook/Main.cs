@@ -27,12 +27,12 @@ namespace ProgrammersNotebook
             noteList.Width = WidthDivideBy(4);
             note.Width = WidthDivideBy(2);
 
+            //Open/New dialog
             NewOrOpenForm startDia = new NewOrOpenForm();
             startDia.ShowDialog(this);
 
             if (!startDia.done || libPath == "")
             {
-                //this.Close();
                 Application.Exit();
                 return;
             }
